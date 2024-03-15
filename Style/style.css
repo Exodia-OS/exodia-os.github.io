@@ -10,14 +10,14 @@
   
     width: 100%;
     height: 100vh;
-    background-image: url("../Images/14.png");
+    background-image: url("../Images/ICE-MOON.jpg");
     background-size: cover;
 }
 .gradint
 {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(#191D25 , #2f2f2fa7);
+    background-image: linear-gradient(#010D16  , #010d16b9);
 }
 
 /* Nav bar */ 
@@ -52,4 +52,11 @@ ul
 ul li a 
 {
     text-decoration: none;
+}
+.download .btn 
+{
+    background-color: #2497DC;
+    padding: 10px 60px;
+    margin-bottom: 20px;
+    border-radius: 60px;
 }
