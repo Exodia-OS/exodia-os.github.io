@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* header photo */ 
+
+.header-photo
+{
+  
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Images/14.png");
+    background-size: cover;
+}
+.gradint
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#191D25 , #2f2f2fa7);
+}
+
+/* Nav bar */ 
+header
+{
+    width: 100%;
+    height: 120px;
+}
+
+.logo-back
+{
+    width: 100%;
+    height: 100%;
+    max-width: 80%;
+}
+.logo-back a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img
+{
+    max-width: 80%;
+}
+
+
+ul
+{
+    list-style: none;
+}
+ul li a 
+{
+    text-decoration: none;
+}
