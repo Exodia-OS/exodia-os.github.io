@@ -17,12 +17,12 @@
 {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(#010D16  , #010d16b9);
+    background-image: linear-gradient( #010d16b9,#010D16 );
 }
 
 /* Nav bar */ 
 header
-{
+{    
     width: 100%;
     height: 120px;
 }
@@ -33,6 +33,11 @@ header
     width: 100%;
     height: 100%;
     max-width: 80%;
+    transition: all 0.1s ease-in-out;
+}
+.logo-back:hover
+{
+    padding: 5px;
 }
 
 .logo img
@@ -41,45 +46,106 @@ header
     background-color: #031726;
     border-radius: 50%;
 }
+
 /* nav list */
-ul
+.nav-list ul
 {
     list-style: none;
 }
-ul li a 
+.nav-list a 
 {
     text-decoration: none;
+    color: white;
+    transition: all 0.1s ease-in-out;
+    
 }
-/* button */
-.download .btn 
+.nav-list li
 {
-    background-color: #05EEFF;
-    padding: 8px 55px;
-    margin-bottom: 20px;
-    border-radius: 30px;
-    color: aliceblue;
-    font-weight:bolder ;
+    transition: all 0.1s ease-in-out;
+
+}
+.nav-list li :hover{
+    color: #05EEFF;
+    border-bottom: solid #05EEFF;
 }
 
+
+/* button */
+
+.download .nav-btn 
+{
+    text-decoration: none;
+  color: #010d16d1;
+  background: #05eeffdf;
+  padding: 10px 50px;
+  border-radius: 30px;
+  font-weight: bolder;
+  transition: all 0.3s ease-in-out;
+}
+.nav-btn:hover {
+    color:#000 ;
+    box-shadow: 0 5px 15px 1px #05eeffe3;
+    
+}
 
 
 /* header*/
+.header-contet{
+    width: 100%;
+}
+
 .header-text > p 
 {
     color: #05EEFF;
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: bolder;
 
 }
 .header-text h1
 {
     font-weight: bolder;
-    font-size: 60px;
-}
-h1 > span{
-    color: #05EEFF;
-
+    font-size: 80px;
 }
 #p-light
 {
     color: #9d9d9dd5;
 }
+
+
+
+
+/* buttons */ 
+.head-fbtn
+{
+    
+    color: #010d16d1;
+    background: #05eeffdf;
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+    border: 0px solid;
+}
+.head-fbtn:hover {
+    background-color: transparent;
+    border: #05eeffdf solid 3px;
+    color: white; 
+  }
+
+  .head-sbtn
+  { 
+    color:#010d16d1 ;
+    background-color: transparent;
+    border: #05eeffdf solid 3px;
+    color: white; 
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .head-sbtn:hover {
+    color:#010d16d1 ;
+    background-color: #05EEFF;
+    border: none solid 3px;
+  }
