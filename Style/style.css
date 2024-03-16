@@ -10,7 +10,7 @@
   
     width: 100%;
     height: 100vh;
-    background-image: url("../Images/ICE-MOON.jpg");
+    background-image: url("../Images/main-bg.jpg");
     background-size: cover;
 }
 .gradint
@@ -27,24 +27,21 @@ header
     height: 120px;
 }
 
+/* nav logo */ 
 .logo-back
 {
     width: 100%;
     height: 100%;
     max-width: 80%;
 }
-.logo-back a
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .logo img
 {
-    max-width: 80%;
+    max-width: 55%;
+    background-color: #031726;
+    border-radius: 50%;
 }
-
-
+/* nav list */
 ul
 {
     list-style: none;
@@ -53,10 +50,36 @@ ul li a
 {
     text-decoration: none;
 }
+/* button */
 .download .btn 
 {
-    background-color: #2497DC;
-    padding: 10px 60px;
+    background-color: #05EEFF;
+    padding: 8px 55px;
     margin-bottom: 20px;
-    border-radius: 60px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-weight:bolder ;
+}
+
+
+
+/* header*/
+.header-text > p 
+{
+    color: #05EEFF;
+    font-size: 12px;
+
+}
+.header-text h1
+{
+    font-weight: bolder;
+    font-size: 60px;
+}
+h1 > span{
+    color: #05EEFF;
+
+}
+#p-light
+{
+    color: #9d9d9dd5;
 }
