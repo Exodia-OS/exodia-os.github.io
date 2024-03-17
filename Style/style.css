@@ -169,7 +169,7 @@ header
 
   .internal-box
   {
-    height: 90%;
+    height: 95%;
     background-color: #041a2b;
     margin: auto;
     width: 80%;
@@ -183,14 +183,14 @@ header
   .internal-box > h1{
     font-weight: bolder;
     font-size: 45px;
-    color: #fff;
+    color: #54B5C1;
   }
   .cap-l 
   {
     font-weight: bolder;
   }
   .cap-l-l{
-    color: #fff;
+    color: #54B5C1;
   }
 
   /*About img **/ 
