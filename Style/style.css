@@ -197,7 +197,7 @@ header
   }
 
   /* benifets */ 
-  
+/*  
 #ben-bg
 {
     background-image: url("../Images/dwm/2.png");
@@ -209,9 +209,8 @@ header
     height: 100%;
     background-image: linear-gradient( #041a2bbe,#031421 );
 }
-
+*/
 .benf-img img
 {
     max-width: 100%;
 }
-@media
