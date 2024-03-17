@@ -16,7 +16,7 @@
 .gradint
 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient( #010d16b9,#010D16 );
 }
 
@@ -155,16 +155,11 @@ header
     border: none solid 3px;
   }
   /* About */ 
-  .about
+  .about,.benifets
   {
     width: 100%;
     height: 700px;
-  }
-
-  .theme-col 
-  {
     background-color: #010D16;
-    height: 100%;
   }
 
   .internal-box
@@ -200,3 +195,23 @@ header
     max-width: 75%;
     
   }
+
+  /* benifets */ 
+  
+#ben-bg
+{
+    background-image: url("../Images/dwm/2.png");
+    background-size: cover;
+}
+.benf-gradiant
+{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( #041a2bbe,#031421 );
+}
+
+.benf-img img
+{
+    max-width: 100%;
+}
+@media
