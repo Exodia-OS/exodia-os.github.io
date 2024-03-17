@@ -12,8 +12,8 @@ window.onload = function() {
 /*header span*/
 
 var typed = new Typed('.auto-type', {
-    strings: ['<span style="color:#05EEFF;">Hackers </span>', '<span style="color:#05EEFF;"> Developers </span>',
-    '<span style="color:#05EEFF;">Network engineers</span>','<span style="color:#05EEFF;">Programmers</span>'],
+    strings: ['<span style="color:#05EEFF;">Cyber Security </span>', '<span style="color:#05EEFF;"> Developing </span>',
+    '<span style="color:#05EEFF;">Networking</span>','<span style="color:#05EEFF;">DevOps</span>','<span style="color:#05EEFF;">Daily Driver</span>'],
     typeSpeed: 120,
     backSpeed :120,
     loop : true
