@@ -4,7 +4,9 @@
     font-family: sans-serif;
 }
 /* header photo */ 
-
+body{
+    background-color: #010D16;
+}
 .header-photo
 {
   
@@ -171,6 +173,7 @@ header
     transition: all 0.1s ease-in-out;
     color: white;
   }
+
 .internal-box:hover{
     box-shadow: 0 5px 15px 1px #01a8b4;
   }
@@ -187,6 +190,7 @@ header
   .cap-l-l{
     color: #54B5C1;
   }
+
 
   /*About img **/ 
   .about-img img
@@ -212,4 +216,25 @@ header
 .ben-list ul li
 {
     margin-bottom: 8px;
+}
+
+/*Cards */
+.cards{
+
+    width: 100%;
+    height: 600px;
+
+}
+.card-cards
+{
+
+    background-color:#031726;
+    border-radius: 10px;
+    height: 15em;
+    
+    
+}
+.card-cards > h2
+{
+    font-weight: 700;
 }
