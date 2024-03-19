@@ -3,9 +3,49 @@
     margin: 0px;
     font-family: sans-serif;
 }
-/* header photo */ 
+/* Customize scrollbar for WebKit browsers */
+body::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #010D16; /* color of the track */
+    border-radius: 15px;
+    
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #01a8b4; /* color of the handle */
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #01a8b4; /* color of the handle on hover */
+    
+}
+
+
+
 body{
     background-color: #010D16;
+    overflow-x: hidden; 
+}
+
+h1
+{     
+    background-image: linear-gradient(to right, rgb(11, 206, 206), #0571c3); /* Adjust colors as needed */
+    -webkit-background-clip: text; /* Clip text to the background's shape */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+}
+code
+{
+    background-image: linear-gradient(to right, rgb(11, 206, 206), #0571c3); /* Adjust colors as needed */
+    -webkit-background-clip: text; /* Clip text to the background's shape */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+
 }
 a
 {
@@ -15,9 +55,10 @@ a
 button > a
 {
     color: #000;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
+
+/* header photo */ 
 .header-photo
 {
   
@@ -34,6 +75,7 @@ button > a
 }
 
 /* Nav bar */ 
+
 header
 {    
     width: 100%;
@@ -66,6 +108,15 @@ header
 }
 
 /* nav list */
+
+
+.nav-list{
+
+    border: 3px  solid #038c96 ;
+    border-radius: 25px;
+    background-image: linear-gradient(to left,#020d15 ,#041a2b); 
+   
+}
 .nav-list ul
 {
     list-style: none;
@@ -74,7 +125,7 @@ header
 {
     text-decoration: none;
     color: white;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;    
     
 }
 .nav-list li
@@ -84,27 +135,34 @@ header
 }
 .nav-list li :hover{
     color: #05EEFF;
-    border-bottom: solid #05EEFF;
 }
 
 
 /* button */
 
-.download .nav-btn 
+.download .nav-btn  
 {
-    text-decoration: none;
-  color: #010d16d1;
-  background: #05eeffdf;
-  padding: 10px 50px;
+text-decoration: none;
+  color: #000;
+  background-color: rgb(88, 225, 255);
+  padding: 6px 30px;
+  border: none;
   border-radius: 30px;
   font-weight: bolder;
   transition: all 0.2s ease-in-out;
 }
-.nav-btn:hover {
-    color:#000 ;
-    box-shadow: 0 5px 15px 1px #05eeffe3;
+
+.download .nav-btn:hover{
+    background-color: rgb(47, 142, 163);
+
+}
+
+
+.nav-btn a{
+    color: #000000;
     
 }
+
 
 
 /* header*/
@@ -199,7 +257,10 @@ header
     font-weight: bolder;
   }
   .cap-l-l{
-    color: #54B5C1;
+    
+    background-image: linear-gradient(to right, rgb(11, 206, 206), #0571c3); /* Adjust colors as needed */
+    -webkit-background-clip: text; /* Clip text to the background's shape */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
   }
 
 
@@ -215,10 +276,7 @@ header
 {
     height: 70%;
 }
-.benf-cont h1
-{
-    color: #54B5C1;
-}
+
  
 .benf-img img
 {
@@ -231,7 +289,6 @@ header
 
 /*Cards */
 .cards{
-
     width: 100%;
     height: 850px;
 
@@ -260,23 +317,21 @@ header
 
 
 /* footer */ 
+
 footer{
-    border-top:#05EEFF 1px solid  ;
-    height: 370px;
+    border-top:#04bdcb 1px solid  ;
+    height: 290px;
     width: 100%;
     background-image: linear-gradient(to left,#000000,#040b11 ,rgb(4, 13, 21) , #041a2b); 
 }
-.footer-cont
-{
-    height: 100%;
-}
+
 footer li
 {
     list-style: none;   
 }
 footer li a 
 {
-    text-decoration: none;
+    
     color: #bcbcbcd5;
     transition: all 0.2s ease-in-out;
 }
@@ -287,15 +342,16 @@ footer li a:hover
 }
 footer svg 
 {
-   
-    border-radius: 100%;
-}
-
-
-.links-list a svg 
-{
     height: 35px;
+    border-radius: 100%;
+    transition: all 0.2s ease-in-out;
+
 }
+footer svg:hover 
+{
+    transform: scale(1.2);
+}
+
 .links-list
 {
     margin-right: 100px;
