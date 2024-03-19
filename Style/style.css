@@ -7,6 +7,17 @@
 body{
     background-color: #010D16;
 }
+a
+{
+    text-decoration: none;
+
+} 
+button > a
+{
+    color: #000;
+    font-weight: bold;
+    
+}
 .header-photo
 {
   
@@ -250,31 +261,42 @@ header
 
 /* footer */ 
 footer{
-    
-    height: 270px;
+    border-top:#05EEFF 1px solid  ;
+    height: 370px;
     width: 100%;
+    background-image: linear-gradient(to left,#000000,#040b11 ,rgb(4, 13, 21) , #041a2b); 
 }
 .footer-cont
 {
-    background-color: #041a2b;
     height: 100%;
-    border-radius: 10px;
-
 }
-.foot-list li
+footer li
 {
-    
-    list-style: none;
-    
+    list-style: none;   
 }
-.foot-list li a
+footer li a 
 {
-    
     text-decoration: none;
-    color: white;
+    color: #bcbcbcd5;
+    transition: all 0.2s ease-in-out;
+}
+footer li a:hover
+{
+    color: #01a8b4;
     
 }
-.footer-cont > .row
+footer svg 
 {
-    
+   
+    border-radius: 100%;
+}
+
+
+.links-list a svg 
+{
+    height: 35px;
+}
+.links-list
+{
+    margin-right: 100px;
 }
