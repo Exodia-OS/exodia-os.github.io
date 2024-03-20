@@ -156,8 +156,6 @@ text-decoration: none;
     background-color: rgb(47, 142, 163);
 
 }
-
-
 .nav-btn a{
     color: #000000;
     
@@ -188,13 +186,11 @@ text-decoration: none;
 }
 
 
-
-
-/* buttons */ 
-.head-fbtn
+/*header buttons */ 
+.head-fbtn 
 {
     
-    color: #010d16d1;
+    color: #fff;
     background: #05eeffdf;
     padding: 10px 50px;
     border-radius: 30px;
@@ -202,9 +198,17 @@ text-decoration: none;
     transition: all 0.3s ease-in-out;
     border: 0px solid;
 }
-.head-fbtn:hover {
-    background-color: transparent;
-    border: #05eeffdf solid 3px;
+.head-fbtn:hover
+{
+    color: white;
+}
+.head-fbtn a{
+    
+transition: all 0.1s ease-in-out;
+}
+
+
+.head-fbtn a:hover{
     color: white; 
   }
 
@@ -218,6 +222,7 @@ text-decoration: none;
     border-radius: 30px;
     font-weight: bolder;
     transition: all 0.3s ease-in-out;
+    
   }
 
   .head-sbtn:hover {
@@ -225,6 +230,9 @@ text-decoration: none;
     background-color: #05EEFF;
     border: none solid 3px;
   }
+
+
+
   /* About */ 
   
   .about,.benifets
@@ -241,6 +249,7 @@ text-decoration: none;
     border-radius: 15px;
     transition: all 0.1s ease-in-out;
     color: white;
+    
   }
 
 .internal-box:hover{
