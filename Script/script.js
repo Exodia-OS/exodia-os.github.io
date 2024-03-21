@@ -1,3 +1,8 @@
+/*Current year Copyright */
+var currentYear = new Date().getFullYear();
+    document.getElementById("currentYear").innerHTML = currentYear;
+
+
 window.onload = function() {
     var title = document.getElementById("pageTitle");
     var img = document.createElement("img");
@@ -28,17 +33,20 @@ document.addEventListener("DOMContentLoaded", function() {
     scrollLinks.forEach(function(scrollLink) {
         scrollLink.addEventListener("click", function(event) {
             event.preventDefault(); // Prevent default anchor behavior
-            const targetSection = document.querySelector(".icon-cy"); // 
-            targetSection.scrollIntoView({ behavior: 'smooth' }); // 
- 
-            this.classList.add('flashing');
-            // Remove flashing animation class after 1 second
-   
-
+            
+            const targetSection = document.querySelectorAll(".icon-cy"); // 
+            
+            targetSection.forEach(targetSection => {
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+                targetSection.classList.add('flashing');
+                
+                setTimeout(() => {
+                    targetSection.classList.remove('flashing');
+                }, 10000); 
+            }); 
         });
     });
 });
-
 
 /* Buttons */
 
