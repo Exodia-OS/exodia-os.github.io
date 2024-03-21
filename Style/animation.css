@@ -71,7 +71,7 @@
 /* Flash animation */
 @keyframes flash {
     0%, 50%, 100% {
-        color: #bcbcbcd5;
+        color: #fff;
     }
     25%, 75% {
         color: #01a8b4;
@@ -79,5 +79,5 @@
 }
 
 .flashing {
-    animation: flash 10s;
+    animation: flash 20s;
 }
