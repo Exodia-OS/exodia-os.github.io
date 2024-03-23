@@ -7,6 +7,7 @@ To be Added:
 - Download page
   - Editions: Home, Predator, Wireless, Dark, ARM
 - Gallery page
+- New Wiki
 
 
 <!-- All Contributors -->
