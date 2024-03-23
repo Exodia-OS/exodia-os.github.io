@@ -66,3 +66,10 @@ document.querySelector(".head-sbtn").addEventListener("click", function() {
     window.open("https://exodia-os.github.io/exodia-website/quickstart/install", "_blank");
      
 });
+
+
+
+/* loading nav bar and footer**/
+$(function(){
+    $("#nav-placeholder").load("../Header-footer/Nav-bar.html");
+  });
