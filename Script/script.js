@@ -69,7 +69,3 @@ document.querySelector(".head-sbtn").addEventListener("click", function() {
 
 
 
-/* loading nav bar and footer**/
-$(function(){
-    $("#nav-placeholder").load("../Header-footer/Nav-bar.html");
-  });
