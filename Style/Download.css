@@ -1,0 +1,67 @@
+
+body{
+    color: azure;
+}
+.spacer
+{
+    height: 200px;
+}
+.Download{
+
+    width: 100%;
+    height: 900px;
+}
+.Download-button
+{
+    height: 90px;
+    border-radius: 30px;    
+}
+
+/* Buttons */ 
+#sec-ed
+{
+    background-image: linear-gradient(to left, rgb(11, 206, 206), #0571c3); /* Adjust colors as needed */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#normal-ed
+{
+    background-image: linear-gradient(to left, rgb(172, 112, 7), #4d067a); /* Adjust colors as needed */
+}
+#cloud-ed
+{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgb(118, 21, 246) 100%);
+}
+
+
+/* Content */
+
+.download-logo
+{
+    height: 30%;
+}
+
+.download-logo img{
+    max-width: 30%;
+    position: relative;
+    bottom: 15px;
+
+    background-color: #010D16;
+    border-radius: 50%;
+
+} 
+
+.content-download
+{
+    background-color: #041a2b;
+    border-radius: 50px;
+    padding: 30px;
+
+}
+
+.disactive{
+    display: none;
+}
+.active{
+    display: block;
+}
