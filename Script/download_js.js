@@ -1,14 +1,67 @@
+var key = 0;
+var locker =0;
+/* Onclick selection */ 
 
-
-/* section selection */ 
-
-$("#normal-ed").click(function (){
-
+$("#Home-ed").click(function (){
+    
+    
+    if(locker==key)
+    {}
+    else{
     $(".active").fadeOut(1000);
-    $("#normal-cont").fadeIn(1000);
-    
-    
+    $(".active").addClass("disactive");
+    $("#Home-ed-cont").removeClass("re-posetion");
+    $(".active").removeClass("active");
+    $("#Home-ed-cont").fadeIn(1000);
+    $("#Home-ed-cont").addClass("active");
+    }
 })
+
+
+
+
+$("#Predator-ed").click(function (){
+    
+    if()
+    {}
+    $(".active").fadeOut(1000);
+    $("#predator-ed-cont").fadeIn(3000);
+    $("#predator-ed-cont").removeClass("re-posetion");
+    $("#predator-ed-cont").removeClass("disactive");
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Download Links */ 

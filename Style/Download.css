@@ -60,9 +60,9 @@ body{
     height: 70px;
     position: relative;
     bottom: 15px;
-    background-color: #010D16;
+    background-color: #041a2b;
     border-radius: 50%;
-
+    border: #05EEFF solid 2px;
 } 
 
 
@@ -70,7 +70,6 @@ body{
 {
     max-width: 75%;
     border-radius: 25px;
-
 }
 .show-case-buttons button
 {
@@ -78,7 +77,6 @@ body{
     height: 50px;
     color: #041a2b;
 }
-
 .Credentials-box
 {
 
@@ -96,25 +94,17 @@ background-color: #010D16;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.disactive{
+.disactive
+{
     display: none;
 }
+
 .active{
     display: block;
+}
+.re-posetion
+{
+    position: relative;
+    left: 440px;
+    bottom: 600px;
 }
