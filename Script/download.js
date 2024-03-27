@@ -1,9 +1,8 @@
 var ID = 1;
-
 /* Onclick selection */ 
 
-/* Home-edtion*/ 
 
+/* Home-edtion*/ 
 $("#Home-ed").click(function (){
     if (ID == 1) {
     } else {
@@ -11,6 +10,27 @@ $("#Home-ed").click(function (){
             $(this).removeClass("active");
             $("#Home-ed-cont").fadeIn(1000);
             $("#Home-ed-cont").addClass("active");
+
+
+         /* Home Theme edition*/
+        $(".nav-list").css("border-color","#038c96");
+        $(".nav .nav-btn").css("background-image","linear-gradient(to left, rgb(11, 206, 206), #0571c3)");
+        $(".logo-back img").attr("src","../Images/Logos/exodia-cyan.png");
+        $(".logo-back img").hover(function(){
+            $(this).css("box-shadow","1px 1px 5px 1px #05eeffe3");
+            }, function(){
+                $(this).css("box-shadow","");
+            });
+
+          $('footer h4 , footer code').css({ 
+            'background-image' : 'linear-gradient(to left,rgb(11, 206, 206) , #0571c3)', 
+            '-webkit-background-clip': 'text', 
+            '-webkit-text-fill-color': 'transparent' 
+        }); 
+        $("footer").css("border-color","#01a8b4");
+
+
+
             ID = 1;
         });
     }
@@ -27,8 +47,25 @@ $("#Predator-ed").click(function (){
         $("#predator-ed-cont").fadeIn(1000,)
         $('#predator-ed-cont').addClass("active");
         $('#predator-ed-cont').removeClass("disactive");
-         ID = 2;
 
+        /* Predator Theme edition*/
+        $(".nav-list").css("border-color","#A600E7");
+        $(".nav .nav-btn").css("background-image","linear-gradient(to left, #38004e  , #A600E7 )");
+        $(".logo-back img").attr("src","../Images/Logos/exodia.png");
+        
+        $(".logo-back img").hover(function(){
+            $(this).css("box-shadow","1px 1px 5px 1px #A600E7");
+            }, function(){
+                $(this).css("box-shadow","");
+            });
+
+          $('footer h4 , footer code').css({ 
+            'background-image' : 'linear-gradient(to left,#38004e , #A600E7)', 
+            '-webkit-background-clip': 'text', 
+            '-webkit-text-fill-color': 'transparent' 
+        }); 
+        $("footer").css("border-color","#A600E7");
+        ID = 2;
         });
     }
 });
@@ -37,13 +74,32 @@ $("#Predator-ed").click(function (){
 
 $("#Wireless-ed").click(function (){
     if (ID == 3) {
-    } else {
-      
+    } else {      
         $(".active").fadeOut(1000, function() {
         $(this).removeClass("active");
         $("#wireless-ed-cont").fadeIn(1000,)
         $('#wireless-ed-cont').addClass("active");
         $('#wireless-ed-cont').removeClass("disactive");
+
+        /* Wireless Theme edition*/
+        $(".nav-list").css("border-color","#a4133c");
+        $(".nav .nav-btn").css("background-image","linear-gradient(to left,#590d22 , #a4133c)");
+        $(".logo-back img").attr("src","../Images/Logos/exodia-red.png");
+        $(".logo-back img").hover(function(){
+            $(this).css("box-shadow","1px 1px 5px 1px #a4133c");
+            }, function(){
+                $(this).css("box-shadow","");
+            });
+
+        $('footer h4 , footer code').css({ 
+            'background-image' : 'linear-gradient(to left,#590d22 , #a4133c)', 
+            '-webkit-background-clip': 'text', 
+            '-webkit-text-fill-color': 'transparent' 
+        }); 
+        $("footer").css("border-color","#a4133c");
+
+
+            
          ID = 3;
         });
     }
@@ -59,6 +115,25 @@ $("#Dark-ed").click(function (){
         $("#Dark-ed-cont").fadeIn(1000,)
         $('#Dark-ed-cont').addClass("active");
         $('#Dark-ed-cont').removeClass("disactive");
+
+        /* Wireless Theme edition*/
+        $(".nav-list").css("border-color","#0466c8");
+        $(".nav .nav-btn").css("background-image","linear-gradient(to left,#010139  , #0466c8)");
+        $(".logo-back img").attr("src","../Images/Logos/exodia-blue.png");
+        
+        $(".logo-back img").hover(function(){
+            $(this).css("box-shadow","1px 1px 5px 1px #0466c8");
+            }, function(){
+                $(this).css("box-shadow","");
+            });
+
+        $('footer h4 , footer code').css({ 
+            'background-image' : 'linear-gradient(to left,#010139 , #0466c8)', 
+            '-webkit-background-clip': 'text', 
+            '-webkit-text-fill-color': 'transparent' 
+        });   
+        $("footer").css("border-color","#0466c8");
+        
          ID = 4;
         });
     }
@@ -74,7 +149,28 @@ $("#ARM-ed").click(function (){
         $("#ARM-ed-cont").fadeIn(1000,)
         $('#ARM-ed-cont').addClass("active");
         $('#ARM-ed-cont').removeClass("disactive");
-         ID = 5;
+               
+        /* ARM Theme edition*/
+        $(".nav-list").css("border-color","#4ad66d");
+        $(".nav .nav-btn").css("background-image","linear-gradient(to left,#10451d , #4ad66d)");
+        $(".logo-back img").attr("src","../Images/Logos/exodia-green.png");
+
+          $(".logo-back img").hover(function(){
+            $(this).css("box-shadow","1px 1px 5px 1px #4ad66d");
+            }, function(){
+                $(this).css("box-shadow","");
+            });
+
+          $('footer h4 , footer code').css({ 
+            'background-image' : 'linear-gradient(to left,#10451d , #4ad66d)', 
+            '-webkit-background-clip': 'text', 
+            '-webkit-text-fill-color': 'transparent' 
+        });   
+
+
+
+        $("footer").css("border-color","#4ad66d");
+        ID = 5;
         });
     }
 });
@@ -99,12 +195,6 @@ $("#ARM-ed").click(function (){
 
 
 
-
-
-
-document.querySelector(".Archive").addEventListener("click", function() {
-    window.open("https://omansh.vercel.app/ExodiaOS/archive/","_blank");
-});
 
 
 
@@ -127,6 +217,10 @@ window.open("https://fosstorrents.com/distributions/exodia-os/", "_blank");
  
 });
 
+/* Home-archive */ 
+document.querySelector("#Archive").addEventListener("click", function() {
+    window.open("https://omansh.vercel.app/ExodiaOS/archive/","_blank");
+});
 
 
 
@@ -148,6 +242,12 @@ window.open("https://drive.google.com/drive/folders/1RHyGWLOTf4mtoVpHpGzNOJRZ8Un
 document.querySelector("#torrent-Predator").addEventListener("click", function() {
 window.open("https://fosstorrents.com/distributions/exodia-os/", "_blank");
  
+});
+
+
+/* Acer-archive */ 
+document.querySelector("#Archive-Acer").addEventListener("click", function() {
+    window.open("https://omansh.vercel.app/ExodiaOS/archive/","_blank");
 });
 
 
@@ -175,7 +275,10 @@ window.open("https://fosstorrents.com/distributions/exodia-os/", "_blank");
  
 });
 
-
+/* Wireless-archive */ 
+document.querySelector("#Archive-Wireless").addEventListener("click", function() {
+    window.open("https://omansh.vercel.app/ExodiaOS/archive/","_blank");
+});
 
 
 

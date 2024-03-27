@@ -16,6 +16,7 @@ body{
 .Download .row> .col-8
 {
     position: relative;
+    width: 990px;
 }
 
 
@@ -23,8 +24,9 @@ body{
 .Download-button
 {
     color: #010D16;
-    height: 75px;
-    border-radius: 15px;    
+    height: 65px;
+    border-radius: 15px;  
+    width: 250px;  
 }
 
 
@@ -61,16 +63,15 @@ body{
     background-color: #041a2b;
     border-radius: 15px;
     position: absolute;
-    position: absolute;
     top: 0;
     left: 0;
-    width: 100%; 
+    width: 100%;
 }
 
 
 .download-header-logo img{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     position: relative;
     bottom: 15px;
     background-color: #010D16;
@@ -81,7 +82,7 @@ body{
 
 .show-case img
 {
-    max-width: 75%;
+    max-width: 79%;
     border-radius: 25px;
 }
 .show-case-buttons button
@@ -117,9 +118,4 @@ background-color: #010D16;
 .active{
     display: block;
 }
-.re-posetion
-{
-    position: relative;
-    left: 440px;
-    bottom: 600px;
-}
+
