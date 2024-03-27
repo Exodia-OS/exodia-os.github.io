@@ -22,6 +22,12 @@ $("#Home-ed").click(function (){
                 $(this).css("box-shadow","");
             });
 
+            $(".nav-list li a , footer li a").hover(function(){
+                $(this).css("color","#05eeffe3");
+            }, function(){
+                 $(this).css("color","#fff");
+            });   
+
           $('footer h4 , footer code').css({ 
             'background-image' : 'linear-gradient(to left,rgb(11, 206, 206) , #0571c3)', 
             '-webkit-background-clip': 'text', 
@@ -56,6 +62,12 @@ $("#Predator-ed").click(function (){
                 $(this).css("box-shadow","");
             });
 
+            $(".nav-list li a , footer li a").hover(function(){
+                $(this).css("color","#A600E7");
+            }, function(){
+                 $(this).css("color","#fff");
+            });
+
           $('footer h4 , footer code').css({ 
             'background-image' : 'linear-gradient(to left,#38004e , #A600E7)', 
             '-webkit-background-clip': 'text', 
@@ -82,10 +94,17 @@ $("#Wireless-ed").click(function (){
         $(".nav-list").css("border-color","#a4133c");
         $(".nav .nav-btn").css("background-image","linear-gradient(to left,#590d22 , #a4133c)");
         $(".logo-back img").attr("src","./Images/Logos/exodia-red.png");
+       
         $(".logo-back img").hover(function(){
             $(this).css("box-shadow","1px 1px 5px 1px #a4133c");
             }, function(){
                 $(this).css("box-shadow","");
+            });
+
+            $(".nav-list li a , footer li a").hover(function(){
+                $(this).css("color","#a4133c");
+            }, function(){
+                 $(this).css("color","#fff");
             });
 
         $('footer h4 , footer code').css({ 
@@ -124,7 +143,13 @@ $("#Dark-ed").click(function (){
                 $(this).css("box-shadow","");
             });
 
-        $('footer h4 , footer code').css({ 
+            $(".nav-list li a, footer li a").hover(function(){
+                $(this).css("color","#0466c8");
+            }, function(){
+                 $(this).css("color","#fff");
+            });
+
+            $('footer h4 , footer code').css({ 
             'background-image' : 'linear-gradient(to left,#010139 , #0466c8)', 
             '-webkit-background-clip': 'text', 
             '-webkit-text-fill-color': 'transparent' 
@@ -152,10 +177,17 @@ $("#ARM-ed").click(function (){
         $(".nav .nav-btn").css("background-image","linear-gradient(to left,#10451d , #4ad66d)");
         $(".logo-back img").attr("src","./Images/Logos/exodia-green.png");
 
-          $(".logo-back img").hover(function(){
+          
+        $(".logo-back img").hover(function(){
             $(this).css("box-shadow","1px 1px 5px 1px #4ad66d");
             }, function(){
                 $(this).css("box-shadow","");
+            });
+
+            $(".nav-list li a, footer li a").hover(function(){
+                $(this).css("color","#4ad66d");
+            }, function(){
+                 $(this).css("color","#fff");
             });
 
           $('footer h4 , footer code').css({ 

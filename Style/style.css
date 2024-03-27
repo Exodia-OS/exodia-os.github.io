@@ -132,16 +132,15 @@ header
 {
     text-decoration: none;
     color: white;
-    transition: all 0.1s ease-in-out;    
-    
+    transition: all 0.1s ease-in-out;
 }
 .nav-list li
 {
     transition: all 0.1s ease-in-out;
 
 }
-.nav-list li :hover{
-    color: #05EEFF !important;
+.nav-list li a:hover{
+    color: #05EEFF  ;
 }
 
 
