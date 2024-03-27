@@ -1,5 +1,67 @@
 var ID = 1;
-/* Onclick selection */ 
+/* Onclick Fir community  */ 
+
+document.addEventListener("DOMContentLoaded", function() {
+    const scrollLinks = document.querySelectorAll('.go-commun');
+    scrollLinks.forEach(function(scrollLink) {
+        scrollLink.addEventListener("click", function(event) {
+            event.preventDefault(); // Prevent default anchor behavior
+            
+            const targetSections = document.querySelectorAll(".icon-cy");
+        
+            targetSections.forEach(targetSection => {
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+
+                switch (ID) {
+                    case 1:
+                        targetSection.classList.add('flashing');       
+                        setTimeout(() => {
+                            targetSection.classList.remove('flashing');
+                        }, 10000); 
+                        break;
+                    case 2:
+                        targetSection.classList.add('flashing-Acer');
+                        setTimeout(() => {
+                            targetSection.classList.remove('flashing-Acer');
+                        }, 10000);        
+                        break;
+
+                    case 3 : 
+                        targetSection.classList.add('flashing-Wireless');
+                        setTimeout(() => {
+                        targetSection.classList.remove('flashing-Wireless');
+                        }, 10000);        
+                        break;
+
+                    case 4 : 
+                        targetSection.classList.add('flashing-Dark');
+                        setTimeout(() => {
+                        targetSection.classList.remove('flashing-Dark');
+                        }, 10000);   
+                        break;
+                       
+                    case 5 : 
+                        targetSection.classList.add('flashing-ARM');
+                        setTimeout(() => {
+                        targetSection.classList.remove('flashing-ARM');
+                        }, 10000);   
+                        break;
+
+                    default:
+                        targetSection.classList.add('flashing');       
+                        setTimeout(() => {
+                            targetSection.classList.remove('flashing');
+                        }, 10000); 
+                        break;
+                }
+            
+            }); 
+        });
+    });
+});
+
+
+
 
 
 /* Home-edtion*/ 
@@ -16,6 +78,7 @@ $("#Home-ed").click(function (){
         $(".nav-list").css("border-color","#038c96");
         $(".nav .nav-btn").css("background-image","linear-gradient(to left, rgb(11, 206, 206), #0571c3)");
         $(".logo-back img").attr("src","./Images/Logos/exodia-cyan.png");
+        
         $(".logo-back img").hover(function(){
             $(this).css("box-shadow","1px 1px 5px 1px #05eeffe3");
             }, function(){
@@ -33,6 +96,7 @@ $("#Home-ed").click(function (){
             '-webkit-background-clip': 'text', 
             '-webkit-text-fill-color': 'transparent' 
         }); 
+        
         $("footer").css("border-color","#01a8b4");
             ID = 1;
         });
@@ -54,6 +118,7 @@ $("#Predator-ed").click(function (){
         /* Predator Theme edition*/
         $(".nav-list").css("border-color","#A600E7");
         $(".nav .nav-btn").css("background-image","linear-gradient(to left, #38004e  , #A600E7 )");
+        
         $(".logo-back img").attr("src","./Images/Logos/exodia.png");
         
         $(".logo-back img").hover(function(){
@@ -68,11 +133,12 @@ $("#Predator-ed").click(function (){
                  $(this).css("color","#fff");
             });
 
-          $('footer h4 , footer code').css({ 
+        $('footer h4 , footer code').css({ 
             'background-image' : 'linear-gradient(to left,#38004e , #A600E7)', 
             '-webkit-background-clip': 'text', 
             '-webkit-text-fill-color': 'transparent' 
         }); 
+        
         $("footer").css("border-color","#A600E7");
         ID = 2;
         });
@@ -101,21 +167,19 @@ $("#Wireless-ed").click(function (){
                 $(this).css("box-shadow","");
             });
 
-            $(".nav-list li a , footer li a").hover(function(){
-                $(this).css("color","#a4133c");
-            }, function(){
-                 $(this).css("color","#fff");
-            });
+        $(".nav-list li a , footer li a").hover(function(){
+            $(this).css("color","#a4133c");
+        }, function(){
+                $(this).css("color","#fff");
+        });
 
         $('footer h4 , footer code').css({ 
             'background-image' : 'linear-gradient(to left,#590d22 , #a4133c)', 
             '-webkit-background-clip': 'text', 
             '-webkit-text-fill-color': 'transparent' 
         }); 
+        
         $("footer").css("border-color","#a4133c");
-
-
-            
          ID = 3;
         });
     }
@@ -149,11 +213,12 @@ $("#Dark-ed").click(function (){
                  $(this).css("color","#fff");
             });
 
-            $('footer h4 , footer code').css({ 
+        $('footer h4 , footer code').css({ 
             'background-image' : 'linear-gradient(to left,#010139 , #0466c8)', 
             '-webkit-background-clip': 'text', 
             '-webkit-text-fill-color': 'transparent' 
         });   
+       
         $("footer").css("border-color","#0466c8");
         
          ID = 4;
@@ -196,14 +261,11 @@ $("#ARM-ed").click(function (){
             '-webkit-text-fill-color': 'transparent' 
         });   
 
-
-
         $("footer").css("border-color","#4ad66d");
         ID = 5;
         });
     }
 });
-
 
 
 

@@ -28,15 +28,14 @@ var typed = new Typed('.auto-type', {
 
 // JavaScript to scroll to section
 document.addEventListener("DOMContentLoaded", function() {
-
     const scrollLinks = document.querySelectorAll('.go-commun');
     scrollLinks.forEach(function(scrollLink) {
         scrollLink.addEventListener("click", function(event) {
             event.preventDefault(); // Prevent default anchor behavior
             
-            const targetSection = document.querySelectorAll(".icon-cy"); // 
+            const targetSections = document.querySelectorAll(".icon-cy");
             
-            targetSection.forEach(targetSection => {
+            targetSections.forEach(targetSection => {
                 targetSection.scrollIntoView({ behavior: 'smooth' });
                 targetSection.classList.add('flashing');
                 
