@@ -1,3 +1,24 @@
 
 /* Predator edtition */ 
 
+#predator-ed-cont .download-header-logo img{
+
+    border: #A600E7 solid 2px;
+}
+
+#predator-ed-cont .show-case button
+{
+    background-image: linear-gradient(to left, #38004e  , #A600E7  );
+
+}
+
+         
+
+  
+#predator-ed-cont .Credentials-box
+{
+    border: 2px #A600E7 solid;
+
+}
+
+ 

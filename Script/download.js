@@ -64,8 +64,8 @@ $("#Dark-ed").click(function (){
     }
 });
 
-/* ARM-ed*/
 
+/* ARM-ed*/
 $("#ARM-ed").click(function (){
     if (ID == 5) {
     } else {
@@ -102,9 +102,9 @@ $("#ARM-ed").click(function (){
 
 
 
-
-
-
+document.querySelector(".Archive").addEventListener("click", function() {
+    window.open("https://omansh.vercel.app/ExodiaOS/archive/","_blank");
+});
 
 
 
@@ -126,4 +126,64 @@ document.querySelector("#torrent-home").addEventListener("click", function() {
 window.open("https://fosstorrents.com/distributions/exodia-os/", "_blank");
  
 });
+
+
+
+
+
+/* Acer-predator Download Links */ 
+
+document.querySelector("#onedrive-Predator").addEventListener("click", function() {
+    window.open("https://omansh.vercel.app/ExodiaOS/latest/predator/", "_blank");
+
+});
+
+/* Acer-predator-downlaod*/ 
+document.querySelector("#google-drive-Predator").addEventListener("click", function() {
+window.open("https://drive.google.com/drive/folders/1RHyGWLOTf4mtoVpHpGzNOJRZ8UnZI2PR?usp=sharing", "_blank");
+
+});
+
+/* Acer-predator*/ 
+document.querySelector("#torrent-Predator").addEventListener("click", function() {
+window.open("https://fosstorrents.com/distributions/exodia-os/", "_blank");
+ 
+});
+
+
+
+
+
+
+
+/* wireless Download Links */ 
+
+document.querySelector("#onedrive-Wireless").addEventListener("click", function() {
+    window.open("https://omansh.vercel.app/ExodiaOS/latest/wireless/", "_blank");
+
+});
+
+/* Wireless-downlaod*/ 
+document.querySelector("#google-drive-Wireless").addEventListener("click", function() {
+window.open("https://omansh.vercel.app/ExodiaOS/latest/wireless/", "_blank");
+
+});
+
+/* Wireless-predator*/ 
+document.querySelector("#torrent-Wireless").addEventListener("click", function() {
+window.open("https://fosstorrents.com/distributions/exodia-os/", "_blank");
+ 
+});
+
+
+
+
+
+
+
+
+
+
+
+
 

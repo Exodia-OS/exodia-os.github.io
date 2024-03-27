@@ -31,31 +31,30 @@ body{
 /* Buttons */ 
 #Home-ed
 {
-    background-image: linear-gradient(to left, rgb(11, 206, 206), #0571c3); /* Adjust colors as needed */
+    background-image: linear-gradient(to left,#045a9c ,rgb(11, 206, 206)); /* Adjust colors as needed */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, #05eeff56 0px 30px 60px -30px, #05eeff3e 0px -2px 6px 0px inset;
 }
 #Predator-ed
 {
-    background-image: linear-gradient(to right,#4a008a , #6f00b4); /* Adjust colors as needed */
+    background-image: linear-gradient(to left, #38004e  , #A600E7  );
 }
 #Wireless-ed
 {
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgb(118, 21, 246) 100%);
+    background-image: linear-gradient(to left,#590d22  , #a4133c); 
+
 }
 #Dark-ed
 {
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgb(118, 21, 246) 100%);
+    background-image: linear-gradient(to left,#010139  , #0466c8); 
+
 }
 #ARM-ed
 {
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgb(118, 21, 246) 100%);
+    background-image: linear-gradient(to left,#10451d  , #4ad66d ); 
+   
 }
 
 /* Content */
-
 
 .content-download
 {
