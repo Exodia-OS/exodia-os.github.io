@@ -32,11 +32,11 @@ body{
 #Home-ed
 {
     background-image: linear-gradient(to left, rgb(11, 206, 206), #0571c3); /* Adjust colors as needed */
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, #05eeff56 0px 30px 60px -30px, #05eeff3e 0px -2px 6px 0px inset;
 }
 #Predator-ed
 {
-    background-image: linear-gradient(to left, rgb(172, 112, 7), #4d067a); /* Adjust colors as needed */
+    background-image: linear-gradient(to right,#4a008a , #6f00b4); /* Adjust colors as needed */
 }
 #Wireless-ed
 {
@@ -91,6 +91,7 @@ body{
     height: 50px;
     color: #041a2b;
 }
+
 .Credentials-box
 {
 
@@ -100,6 +101,7 @@ background-color: #010D16;
  padding: 15px;   
  height: 160px;
 }
+
 .nav-btn img 
 {
     position: relative;
