@@ -70,7 +70,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 120%;
 }
 
 
@@ -87,7 +87,7 @@ body{
 
 .show-case img
 {
-    max-width: 79%;
+    max-width: 83%;
     border-radius: 25px;
 }
 .show-case-buttons button
