@@ -1,5 +1,5 @@
 var ID = 1;
-/* Onclick Fir community  */ 
+/* Scrool down and flashing For community  */ 
 
 document.addEventListener("DOMContentLoaded", function() {
     const scrollLinks = document.querySelectorAll('.go-commun');
@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 /* Home-edtion*/ 
+
 $("#Home-ed").click(function (){
     if (ID == 1) {
     } else {
@@ -102,6 +103,8 @@ $("#Home-ed").click(function (){
         });
     }
 });
+
+
 
 /* Predator-edtion*/ 
 
@@ -147,6 +150,7 @@ $("#Predator-ed").click(function (){
 
 /* Wireless-ed */
 
+
 $("#Wireless-ed").click(function (){
     if (ID == 3) {
     } else {      
@@ -184,6 +188,7 @@ $("#Wireless-ed").click(function (){
         });
     }
 });
+
 
 /* Dark-ed*/
 $("#Dark-ed").click(function (){
@@ -225,6 +230,7 @@ $("#Dark-ed").click(function (){
         });
     }
 });
+
 
 
 /* ARM-ed*/
