@@ -3,12 +3,18 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-To be Added:
-- Download page
-  - Editions: Home, Predator, Wireless, Dark, ARM
-- Gallery page
-- New Wiki
+## Contributing
 
+- fork
+- create a new branch with `dev-${GITHUB-USERNAME}` name (e.g. `dev-mmsaeed509`)
+  - ```bash
+    git checkout -b dev-mmsaeed509
+    ```
+- commit your changes
+  - ```bash
+    ./git-push.sh -m "your commit msg"
+    ```
+- create a pull request
 
 <!-- All Contributors -->
 
