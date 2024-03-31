@@ -6,6 +6,9 @@
     <title id="pageTitle">Exodia OS 🇵🇸 Free Palestine</title>
     <link rel="icon" href="./Images/Logos/with-bg/exodia-cyan-black-bg.png" type="image/icon type">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style/style.css">
     <link rel="stylesheet" href="Style/animation.css">
     <link rel="stylesheet" href="Style/Gallery.css">
@@ -13,16 +16,16 @@
 
 <body>
     
-    <header class="nav">
+    <header class="nav nova-square-regular">
         <div class="container">
             <div class="row nav-back h-100 d-flex justify-content-between align-items-center">
                 <div class="logo col-2"><div class="logo-back"><a href=""><img src="./Images/Logos/exodia-cyan.png" alt=""></a></div></div>
                 <div class="nav-list col-7 d-flex justify-content-between align-items-center  ">
                     <ul class="d-flex justify-content-between gap-5 mt-3">
+                        <li><a href="./index.html"  target="_blank">Home</a></li>
                         <li class="go-commun"><a class="go-commun" href="#">Community</a></li>
                         <li><a href="https://exodia-os.github.io/exodia-website/quickstart/install" target="_blank">Wiki</a></li>
                         <li><a href="https://exodia-os.github.io/exodia-website/Keybinding"  target="_blank">Keybinding</a></li>
-                        <li><a href="https://exodia-os.github.io/exodia-website/themes/themelist"  target="_blank">Gallary</a></li>
                         <li><a href="team.html"  target="_blank">About us</a></li>
                     </ul>
                     <div class="download"><button class="nav-btn btn">Download</button></div>
@@ -33,33 +36,65 @@
     </header>
 
      <!--Header-->
-     <section class="header-Gallery my-5">
+     <section class="header-Gallery nova-square-regular">
         <div class="container h-100 d-flex text-center justify-content-center align-items-center flex-column">
-            <h1 class="my-3 h-grad">Gallery Exodia OS</h1>
+            <h1 class="my-3 h-grad ">Gallery Exodia OS</h1>
             <p id="p-light">Discover our OS features, updates, and support resources.</p>
         </div>
        </section>
 
+
        <div class="spacer"></div>
 
-       <div class="Gallery-slider">
-        <div class="container Gallary-box ">
+
+
+
+
+
+       <div class="Gallery-slider ">
+        <div class="container Gallary-box p-4 ">
             <div class="slider-container">
                 <div class="slider">
                   <div class="slide">
-
-                    <div class="custom-slider">
-                        <div class="custom-slides">
-                          <img src="./Images/bspwm/1.png" alt="Slide 1">
-                          <img src="./Images/bspwm/2.png" alt="Slide 2">
-                          <img src="./Images/bspwm/3.png" alt="Slide 3">
+                        <h1 class="h-grad my-5">BSPWM</h1>
+                        <div class="custom-slider">
+                         <img class="custom-prev" src="./Images/Logos/previous.png" alt="">
+                            <div class="custom-slides">
+                            <img src="./Images/bspwm/13.png" alt="Slide 1">
+                            <img src="./Images/bspwm/6.png" alt="Slide 2">
+                            <img src="./Images/bspwm/7.png" alt="Slide 3">
+                            <img src="./Images/bspwm/8.png" alt="Slide 1">
+                            <img src="./Images/bspwm/10.png" alt="Slide 2">
+                            <img src="./Images/bspwm/12.png" alt="Slide 3">
+                            <img src="./Images/bspwm/3.png" alt="Slide 1">
+                            <img src="./Images/bspwm/14.png" alt="Slide 2">
+                            <img src="./Images/bspwm/17.png" alt="Slide 3">
+                            <img src="./Images/bspwm/18.png" alt="Slide 1">
+                            <img src="./Images/bspwm/29.png" alt="Slide 2">
+                            <img src="./Images/bspwm/30.png" alt="Slide 3">
                         </div>
-                        <button class="custom-prev">Prev</button>
-                        <button class="custom-next">Next</button>
+                        <img class="custom-next" src="./Images/Logos/next.png" alt="">
+
                       </div>
+                  </div>
+                  <div class="slide">
+
+                    <h1 class="h-grad my-5">I3WM</h1>
+                    <div class="custom-slider">
+                     <img class="custom-prev-2" src="./Images/Logos/previous.png" alt="">
+                        <div class="custom-slides-2">
+                        <img src="./Images/i3wm/4.png" alt="Slide 1">
+                        <img src="./Images/i3wm/2.png" alt="Slide 1">
+                        <img src="./Images/i3wm/3.png" alt="Slide 1">
+                        <img src="./Images/i3wm/1.png" alt="Slide 1">
+
+                        
+                    </div>
+                    <img class="custom-next-2" src="./Images/Logos/next.png" alt="">
 
                   </div>
-                  <div class="slide">Slide 2</div>
+                
+                </div>
                   <div class="slide">Slide 3</div>
                   <!-- Add more slides as needed -->
                 </div>
@@ -68,9 +103,7 @@
                   <div class="slider-bullets"></div>
                   <div class="next-arrow">&gt;</div>
                 </div>
-              </div>
-              
-
+            </div>
         </div>
        </div>
 
@@ -117,22 +150,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       <div class="spacer"></div>
 
 
 

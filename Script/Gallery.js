@@ -1,47 +1,42 @@
-/*
-let currentSlide = 0;
-  const slides = document.querySelectorAll('.slide');
-  const totalSlides = slides.length;
-
-  const showSlide = (index) => {
-    if (index < 0) {
-      currentSlide = totalSlides - 1;
-    } else if (index >= totalSlides) {
-      currentSlide = 0;
-    } else {
-      currentSlide = index;
-    }
-
-    const offset = -100 * currentSlide;
-    document.querySelector('.slider').style.transform = `translateX(${offset}%)`;
-    updateSliderNav();
-  };
-
-  const updateSliderNav = () => {
-    document.querySelectorAll('.slider-nav button').forEach((button, index) => {
-      if (index === currentSlide) {
-        button.classList.add('active');
-      } else {
-        button.classList.remove('active');
-      }
-    });
-  };
-
-  document.querySelector('.prev').addEventListener('click', () => showSlide(currentSlide - 1));
-  document.querySelector('.next').addEventListener('click', () => showSlide(currentSlide + 1));
-
-  // Automatic slideshow
-  setInterval(() => {
-    showSlide(currentSlide + 1);
-  }, 3000); // Change slide every 3 seconds
-
-
-
-*/
 
 
 
 
+// JavaScript to scroll to section
+document.addEventListener("DOMContentLoaded", function() {
+  const scrollLinks = document.querySelectorAll('.go-commun');
+  scrollLinks.forEach(function(scrollLink) {
+      scrollLink.addEventListener("click", function(event) {
+          event.preventDefault(); // Prevent default anchor behavior
+          
+          const targetSections = document.querySelectorAll(".icon-cy");
+          
+          targetSections.forEach(targetSection => {
+              targetSection.scrollIntoView({ behavior: 'smooth' });
+              targetSection.classList.add('flashing');
+              
+              setTimeout(() => {
+                  targetSection.classList.remove('flashing');
+              }, 10000); 
+          }); 
+      });
+  });
+});
+
+
+
+
+/* Download button */ 
+
+document.querySelector(".nav-btn").addEventListener("click", function() {
+  window.open("download.html", "_blank");
+   
+});
+
+
+
+
+  /* Div Slider */
 
   $(document).ready(function() {
     const slides = $('.slide');
@@ -93,24 +88,12 @@ let currentSlide = 0;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  $(document).ready(function(){
+/* Photo Slider */
+  
+$(document).ready(function(){
     var currentIndex = 0;
     var slides = $('.custom-slides img');
     var totalSlides = slides.length;
-  
     $('.custom-next').click(function(){
       goToSlide(currentIndex + 1);
     });
@@ -128,6 +111,32 @@ let currentSlide = 0;
       slides.hide();
       slides.eq(index).fadeIn();
       currentIndex = index;
+    }
+  });
+
+
+  
+  $(document).ready(function(){
+    var currentIndex_2 = 0;
+    var slides = $('.custom-slides-2 img');
+    var totalSlides = slides.length;
+    $('.custom-next-2').click(function(){
+      goToSlide(currentIndex_2 + 1);
+    });
+  
+    $('.custom-prev-2').click(function(){
+      goToSlide(currentIndex_2 - 1);
+    });
+  
+    function goToSlide(index) {
+      if (index < 0) {
+        index = totalSlides - 1;
+      } else if (index >= totalSlides) {
+        index = 0;
+      }
+      slides.hide();
+      slides.eq(index).fadeIn();
+      currentIndex_2 = index;
     }
   });
   

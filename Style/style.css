@@ -1,8 +1,17 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "ozoz";
+    font-weight: 400;
+    font-style: normal;
 }
+
+  @font-face {
+    font-family: ozoz;
+    src: url(../Fonts/Squares\ Regular.otf);
+  }
+  
+
 /* Customize scrollbar for WebKit browsers */
 body::-webkit-scrollbar {
     width: 12px; /* width of the scrollbar */
