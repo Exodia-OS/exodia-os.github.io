@@ -62,7 +62,7 @@ document.querySelector(".head-fbtn").addEventListener("click", function() {
 
 /* Header-wiki*/ 
 document.querySelector(".head-sbtn").addEventListener("click", function() {
-    window.open("https://exodia-os.github.io/exodia-website/quickstart/install", "_blank");
+    window.open("https://exodia-os.github.io/wiki", "_blank");
      
 });
 
