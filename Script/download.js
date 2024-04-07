@@ -362,7 +362,7 @@ document.querySelector("#onedrive-Wireless").addEventListener("click", function(
 
 /* Wireless-downlaod*/ 
 document.querySelector("#google-drive-Wireless").addEventListener("click", function() {
-window.open("https://omansh.vercel.app/ExodiaOS/latest/wireless/", "_blank");
+window.open("https://drive.google.com/drive/folders/1zPh229ZV360hwpbQTSQU9UXfQKYI0-90?usp=sharing", "_blank");
 
 });
 
