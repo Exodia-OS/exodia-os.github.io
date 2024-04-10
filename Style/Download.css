@@ -26,7 +26,7 @@ body{
     color: #010D16;
     height: 65px;
     border-radius: 10px;  
-    width: 250px;  
+    width: 280px;
     cursor: pointer;
 }
 
@@ -101,11 +101,27 @@ body{
 .Credentials-box
 {
 
-background-color: #010D16;
- border: 2px #05EEFF solid;
- border-radius:15px;
- padding: 15px;   
- height: 160px;
+    background-color: #010D16;
+    border: 2px #05EEFF solid;
+    border-radius:15px;
+    padding: 15px;
+    height: 160px;
+    position: relative;
+    bottom: -75px;
+
+}
+
+.Credentials-box-arm
+{
+
+    background-color: #010D16;
+    border: 2px #05EEFF solid;
+    border-radius:15px;
+    padding: 15px;
+    height: 160px;
+    position: relative;
+    bottom: -150px;
+
 }
 
 .nav-btn img 
