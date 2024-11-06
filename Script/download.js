@@ -274,27 +274,6 @@ $("#ARM-ed").click(function (){
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Home Download Links */ 
 
 document.querySelector("#onedrive-home").addEventListener("click", function() {
@@ -348,11 +327,6 @@ document.querySelector("#Archive-Acer").addEventListener("click", function() {
 });
 
 
-
-
-
-
-
 /* wireless Download Links */ 
 
 document.querySelector("#onedrive-Wireless").addEventListener("click", function() {
@@ -377,13 +351,30 @@ document.querySelector("#Archive-Wireless").addEventListener("click", function()
     window.open("https://omansh.vercel.app/ExodiaOS/archive/","_blank");
 });
 
+function updateScrollbar(editionClass) {
+    // Remove existing scrollbar classes
+    document.body.classList.remove("home-scrollbar", "predator-scrollbar", "wireless-scrollbar", "dark-scrollbar", "arm-scrollbar");
 
+    // Add the new scrollbar class based on the selected edition
+    document.body.classList.add(editionClass);
+}
 
+document.querySelector("#Home-ed").addEventListener("click", function() {
+    updateScrollbar("home-scrollbar");
+});
 
+document.querySelector("#Predator-ed").addEventListener("click", function() {
+    updateScrollbar("predator-scrollbar");
+});
 
+document.querySelector("#Wireless-ed").addEventListener("click", function() {
+    updateScrollbar("wireless-scrollbar");
+});
 
+document.querySelector("#Dark-ed").addEventListener("click", function() {
+    updateScrollbar("dark-scrollbar");
+});
 
-
-
-
-
+document.querySelector("#ARM-ed").addEventListener("click", function() {
+    updateScrollbar("arm-scrollbar");
+});

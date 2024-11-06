@@ -10,6 +10,7 @@ body{
     width: 100%;
     height: auto;
     padding-top: 20px;
+    padding-bottom: 100px;
 }
 
 
@@ -134,5 +135,35 @@ body{
 
 .active{
     display: block;
+}
+
+/* Default scrollbar style */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+}
+
+/* Scrollbar styles for each edition */
+.home-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #038c96;
+}
+
+.predator-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #A600E7;
+}
+
+.wireless-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #a4133c;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #0466c8;
+}
+
+.arm-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #4ad66d;
 }
 
