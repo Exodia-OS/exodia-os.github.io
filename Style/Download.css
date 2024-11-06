@@ -151,7 +151,17 @@ body::-webkit-scrollbar-thumb {
     background-color: #038c96;
 }
 
+.home-scrollbar::-webkit-scrollbar-thumb:hover,
+.home-scrollbar::-webkit-scrollbar-thumb:active {
+    background-color: #038c96; /* Keeps the color same when hovered */
+}
+
 .predator-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #A600E7;
+}
+
+.predator-scrollbar::-webkit-scrollbar-thumb:hover,
+.predator-scrollbar::-webkit-scrollbar-thumb:active {
     background-color: #A600E7;
 }
 
@@ -159,7 +169,17 @@ body::-webkit-scrollbar-thumb {
     background-color: #a4133c;
 }
 
+.wireless-scrollbar::-webkit-scrollbar-thumb:hover,
+.wireless-scrollbar::-webkit-scrollbar-thumb:active {
+    background-color: #a4133c;
+}
+
 .dark-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #0466c8;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb:hover,
+.dark-scrollbar::-webkit-scrollbar-thumb:active {
     background-color: #0466c8;
 }
 
@@ -167,3 +187,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #4ad66d;
 }
 
+.arm-scrollbar::-webkit-scrollbar-thumb:hover,
+.arm-scrollbar::-webkit-scrollbar-thumb:active {
+    background-color: #4ad66d;
+}

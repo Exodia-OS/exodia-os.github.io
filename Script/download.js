@@ -351,6 +351,7 @@ document.querySelector("#Archive-Wireless").addEventListener("click", function()
     window.open("https://omansh.vercel.app/ExodiaOS/archive/","_blank");
 });
 
+// Scrollbar styles for each edition //
 function updateScrollbar(editionClass) {
     // Remove existing scrollbar classes
     document.body.classList.remove("home-scrollbar", "predator-scrollbar", "wireless-scrollbar", "dark-scrollbar", "arm-scrollbar");
